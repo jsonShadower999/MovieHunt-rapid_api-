@@ -1,0 +1,55 @@
+/* SingleMov.css */
+.single-mov-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .single-mov-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .single-mov-container p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .single-mov-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .single-mov-container .no-image {
+    width: 500px;
+    height: 500px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #aaa;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .single-mov-container h1 {
+      font-size: 2rem;
+    }
+  
+    .single-mov-container img,
+    .single-mov-container .no-image {
+      max-width: 100%;
+    }
+  }
+  
